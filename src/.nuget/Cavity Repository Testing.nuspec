@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Cavity.Testing.Repository</id>
+    <version>16.04.19.2220</version>
+    <title>Cavity Repository Testing</title>
+    <authors>Alan Dean</authors>
+    <owners />
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/cavity-project/repository-testing</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/cavity-project/logo/master/nuget.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a standard test suite to verify the behaviour of Cavity Repository implementations.</description>
+    <summary />
+    <copyright>Copyright © 2010 - 2016 Alan Dean</copyright>
+    <language />
+    <tags>Data Testing</tags>
+    <releaseNotes />
+    <dependencies>
+      <dependency id="Cavity.Repository" version="2.0.0.970" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\net35\Cavity.Testing.Repository.dll" target="lib\net35\Cavity.Testing.Repository.dll" />
+    <file src="lib\net40\Cavity.Testing.Repository.dll" target="lib\net40\Cavity.Testing.Repository.dll" />
+  </files>
+</package>
